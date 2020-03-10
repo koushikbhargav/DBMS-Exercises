@@ -1,43 +1,43 @@
 # DBMS-Exercises
 
-#Department of Computer Science and Engineering 
-#Semester   VI Database Management Systems Laboratory exercises(December 2019  to  April 2020)
-#Exercises based on Database Implementation 
-#(Use C/C++/Java/Python)
+# Department of Computer Science and Engineering 
+# Semester   VI Database Management Systems Laboratory exercises(December 2019  to  April 2020)
+# Exercises based on Database Implementation 
+# (Use C/C++/Java/Python)
 
-#Exercise –I  
+# Exercise –I  
 i) Create a data file to store records of the students (fields: rollno, name, branch,age).  (ii) Sort the records of the file based on the rollno of the students.  
 (iii) Perform external sorting procedure (based on the roll number) on two data files which store records of the students and store the result in to the third data file.  
 (iv) Store student records (fields: rollno,name,branch,age) in a data file and perform linear search in the data file by reading rollno as input and then display the student details and display the time required to do this operation. 
 
-#Exercise 2  
+# Exercise 2  
 Store student records (fields: rollno,name,branch,age) in a data file  and build an index file by considering the rollno as the key.  
 Perform linear search in the index file by reading rollno as input and then display the student details by reading from the data file and display the time required to do this operation. 
 Perform binary search in the index file (by sorting the index file based on the rollno) by reading rollno as input and then display the student details by reading from the data file and display the time required to do this operation. 
 
-#Exercise –3
+# Exercise –3
 Store student records (fields: rollno,name,branch,age) in a data file and build an index file by using binary search tree ( rollno  is used as the key). 
 Perform search in the index file by reading rollno as input and then display the student details by reading from the data file and display the time required to do this operation. 
 Add and delete the student records from the data file and then perform corresponding modifications in the index file. 
 
-#Exercise –4
+# Exercise –4
 Store student records (fields: rollno,name,branch,age) in a data file and build an index file by using hash table (rollno  is used as the key here). 
 Perform search in the index file by reading rollno as input and then display the student details by reading from the data file and display the time required to do this operation. 
 Add and delete the student records from the data file and then perform corresponding modifications in the index file.  
 
-#Exercise – 5 
+# Exercise – 5 
 Store student records (fields: rollno,name,branch,age) in a data file and build an index file by using B+ tree  (rollno  is used as the key here). 
 Perform search in the index file by reading rollno as input and then display the student details by reading from the data file and display the time required to do this operation. 
 Add and delete the student records from the data file and then perform corresponding modifications in the index file.  
 
-#Exercise-6
+# Exercise-6
 Develop module(s) for creating tables by fixing the number of columns (fields), individual column names and their data types and store the schema in the catalog (data dictionary). Consider one column as the primary key and create index file for the same. Also, develop the module for dropping a table along with the index file and for modifying the table by adding/dropping columns.
 
-#Exercise –7
+# Exercise –7
 Develop module(s) for inserting rows into the selected table and for deleting the rows of the selected table by including the facility to specify conditions for deletion.
 Develop module(s) for reading the data present in the table and also include the facility to specify the conditions for selecting the rows from the table.  Use the index file (if needed) for the quick access of data.  Try to have index files based on various columns (fields) of the table. And also develop an indexing method using which it is possible to execute the range queries in a faster manner.
 
-#Exercise – 8
+# Exercise – 8
 Develop a prototype DBMS by combining all the modules that you have developed for Exercises I to VII  by including an excellent GUI for manipulating the data present in the tables. 
 
 SQL-Based Exercises 
