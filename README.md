@@ -1,7 +1,7 @@
 # DBMS-Exercises
 
 # Department of Computer Science and Engineering 
-# Semester   VI Database Management Systems Laboratory exercises(December 2019  to  April 2020)
+# Semester   VI Database Management Systems Laboratory exercises
 # Exercises based on Database Implementation 
 # (Use C/C++/Java/Python)
 
